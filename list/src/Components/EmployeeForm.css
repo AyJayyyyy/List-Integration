@@ -1,0 +1,52 @@
+/* EmployeeForm.css */
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .employee-form {
+    width: 600px;
+    padding: 65px;
+    border-radius: 5px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 35px;
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 3px solid #000000;
+    border-radius: 50px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .submit-button {
+    width: 103%;
+    padding: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
